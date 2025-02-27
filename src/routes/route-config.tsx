@@ -6,7 +6,7 @@ import Home from "@/pages/home/home";
 import DocumentsPage from "@/pages/documents/documents-page";
 import EvaluationsPage from "@/pages/evaluations/evaluations-page";
 import RegulationsPage from "@/pages/regulations/regulations-page";
-import Users from "@/pages/users/users";
+import Users from "@/pages/users/users-page";
 import Agents from "@/pages/agents/agents";
 import ReplitLayout from "@/components/replit/replit-layout";
 import PromptDetails from "@/components/prompt/prompt-details";

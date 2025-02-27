@@ -1,59 +1,48 @@
-
 import { Insight } from "@/types/core/insights";
 
 export const insightsHistory: Insight[] = [
-  {
-    id: "1",
-    name: "NEC 1.0 Table of Contents",
-    folder: "evsDrive/documents/1/table-of-contents",
-    type: "table_of_contents",
-    content: "my table of contents",
-    parent: "regulation",
-    parent_id: "1"
-  },
-  {
-    id: "2",
-    name: "NEC 1.0 Summary",
-    folder: "evsDrive/documents/1/summary",
-    type: "summary",
-    content: "my summary",
-    parent: "regulation",
-    parent_id: "1"
-  },
-  {
-    id: "3",
-    name: "NEC 2.0 Table of Contents",
-    folder: "evsDrive/documents/2/table-of-contents",
-    type: "table_of_contents",
-    content: "my table of contents",
-    parent: "regulation",
-    parent_id: "2"
-  },
-  {
-    id: "4",
-    name: "NEC 1.0 Summary",
-    folder: "evsDrive/documents/2/summary",
-    type: "summary",
-    content: "my summary",
-    parent: "regulation",
-    parent_id: "2"
-  },
-  {
-    id: "5",
-    name: "Blueprint A Summary",
-    folder: "evsDrive/projects/1/overview",
-    type: "summary",
-    content: "my summary",
-    parent: "project",
-    parent_id: "1"
-  },
-  {
-    id: "6",
-    name: "Blueprint B Summary",
-    folder: "evsDrive/projects/2/overview",
-    type: "summary",
-    content: "my summary",
-    parent: "project",
-    parent_id: "2"
-  }
+    {
+        id: "1",
+        name: "Code Quality Analysis",
+        type: "code",
+        status: "active",
+        createdAt: "2024-03-20",
+        score: 95,
+        processingTime: "2.3s",
+        content: "Code quality analysis results...",
+        folder: "/code-analysis"
+    },
+    {
+        id: "2",
+        name: "API Documentation",
+        type: "documentation",
+        status: "active",
+        createdAt: "2024-03-19",
+        score: 88,
+        processingTime: "1.5s",
+        content: "API documentation content...",
+        folder: "/docs/api"
+    },
+    {
+        id: "3",
+        name: "Security Scan Results",
+        type: "code",
+        status: "active",
+        createdAt: "2024-03-18",
+        score: 92,
+        processingTime: "3.1s",
+        content: "Security scan findings...",
+        folder: "/security"
+    },
+    {
+        id: "4",
+        name: "User Guide",
+        type: "documentation",
+        status: "inactive",
+        createdAt: "2024-03-17",
+        score: 85,
+        processingTime: "1.8s",
+        content: "User guide content...",
+        folder: "/docs/user"
+    }
 ];

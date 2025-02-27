@@ -2,9 +2,10 @@ export type Insight = {
   id: string;
   name: string;
   folder?: string;
-  type: "table_of_contents" | "summary";
+  type: "code" | "documentation";
+  status: "active" | "inactive";  
   content?: string;
-  // Special attributes for parent reference
-  parent: "regulation" | "project";
-  parent_id: string;
+  createdAt: string;
+  score: number;
+  processingTime: string;
 };

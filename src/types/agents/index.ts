@@ -2,8 +2,9 @@
 export interface Agent {
   id: string;
   name: string;
-  systemPrompt: string;
-  createdBy: string;
-  createdAt: string;
-  status: boolean;
+  type: string;
+  status: 'active' | 'inactive';
+  description: string;
+  lastActive: string;
+  performance: number;
 }
